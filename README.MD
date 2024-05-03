@@ -36,3 +36,9 @@ Before you start running the project, ensure that you have the following softwar
     In terminal run the following command: 
     - npm install -g allure-commandline
     - allure - options
+
+7. Faker
+
+    A Python library that is used to generate fake data. It's commonly used for testing, prototyping, or any situation where you need random data like names, addresses, phone numbers, email addresses, and more. It is particularly useful for creating realistic mock data for tests or simulations without relying on real user data.
+
+    - pip install faker
