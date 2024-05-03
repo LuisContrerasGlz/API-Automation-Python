@@ -29,8 +29,8 @@ def test_create_booking_positive():
     # Define request headers and payload for the booking request
     headers = {"Content-Type": "application/json"}
     payload = {
-        "firstname": "Amit",
-        "lastname": "Brown",
+        "firstname": "Luis",
+        "lastname": "Contreras",
         "totalprice": 111,
         "depositpaid": True,
         "bookingdates": {
@@ -64,7 +64,7 @@ def test_create_booking_positive():
     # Verify specific details in the booking response
     firstname = response_json["booking"]["firstname"]
     checkin = response_json["booking"]["bookingdates"]["checkin"]
-    assert firstname == "Amit"
+    assert firstname == "Luis"
     assert checkin == "2018-01-01"
     
 

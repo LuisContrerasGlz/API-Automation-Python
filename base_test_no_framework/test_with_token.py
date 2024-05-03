@@ -42,8 +42,8 @@ def create_booking():
     # Set headers and payload for the booking request
     headers = {"Content-Type": "application/json"}
     json_payload = {
-        "firstname": "Amit",
-        "lastname": "Brown",
+        "firstname": "Luis",
+        "lastname": "Contreras",
         "totalprice": 111,
         "depositpaid": True,
         "bookingdates": {
@@ -89,8 +89,8 @@ def test_put_request():
     
     # Define the payload for updating the booking
     json_payload = {
-        "firstname": "Pramod",
-        "lastname": "Brown",
+        "firstname": "Luis",
+        "lastname": "Contreras",
         "totalprice": 111,
         "depositpaid": True,
         "bookingdates": {
