@@ -22,8 +22,8 @@ def create_booking():
     URL = "https://restful-booker.herokuapp.com/booking"
     headers = {"Content-Type": "application/json"}
     json_payload = {
-        "firstname": "Amit",
-        "lastname": "Brown",
+        "firstname": "Luis",
+        "lastname": "Contreras",
         "totalprice": 111,
         "depositpaid": True,
         "bookingdates": {
